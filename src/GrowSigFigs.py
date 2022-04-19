@@ -3,6 +3,8 @@
 import math
 
 def growsigfigs():
+    
+    # Welcome message
     print(" ")
     print("Growth calculator, rounded to 3 significant figures.")
     print(" ")
@@ -13,7 +15,8 @@ def growsigfigs():
     print("     sigfigs=int(x/factor)*factor")
     print(" ")
     print(" ")
-
+    
+    # Maths
     pv = eval(input("Enter the starting amount: "))
     i = eval(input("Enter the annual interest rate: "))
     n = eval(input("Enter the number of years: "))
@@ -23,7 +26,8 @@ def growsigfigs():
     size=math.floor(math.log10(fv))/math.log10(10)
     factor=10**(size-2)
     sigfigs=math.floor(fv/factor)*factor
-
+    
+    # Result
     print(" ")
     print("The amount after", n, "years at", i,"% is", sigfigs)    
    
