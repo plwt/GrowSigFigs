@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=GrowSigFigs
+Comment=Future value calculator with rounding to 3 significant figures for Linux
+Exec=/usr/bin/x-terminal-emulator -e "/opt/GrowSigFigs/src/GrowSigFigs.sh"
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/opt/GrowSigFigs/src/icon.png
+Categories=GNOME;GTK;Development;
+Name[en_GB]=GrowSigFigs
